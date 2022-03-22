@@ -2,8 +2,16 @@ nav {
 
 }
 
-nav li {
-    display: inline;
+p {
+  font-family: Helvetica, Arial, sans-serif
+}
+
+h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+nav > ul > li {
+  display: inline;
 }
 
 nav a {
