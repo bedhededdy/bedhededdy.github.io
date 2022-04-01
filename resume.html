@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/remove_defaults.css" />
         <link rel="stylesheet" text="text/css" media="screen" href="css/style.css" />
     </head>
     <body>
@@ -14,11 +15,12 @@
             </nav>
 
             <h1>Edward Pinkston's Resume</h1>
+            <h2>Contact Info</h2>
             <p>(630)-696-8741</p>
             <p>edward.pinkston@gmail.com</p>
         </header>
 
-        <section id="content">
+        <div id="content">
             <h2>Objective</h2>
             <p>To obtain a programming position in the software development industry</p>
 
@@ -28,46 +30,56 @@
             <p>Expected Graduation: May 2023</p>
             <p>GPA: 3.94/4.0</p>
 
-            <h2>Work Experience</h2>
-            <h3>Jewel-Osco</h3>
-            <p>Address: 343 W Irving Park Rd, Wood Dale, IL 60191</p>
-            <p>Dates Worked: July 2018 -- December 2018</p>
-            <p>Position: Grocery Department</p>
-            <ul>
-                <li>Stocked shelves</li>
-                <li>Helped customers find items</li>
-                <li>Occastionally helped bag groceries when needed</li>
-            </ul>
+            <div id="work_experience">
+                <h2>Work Experience</h2>
+                <div id="jewel">
+                    <h3>Jewel-Osco</h3>
+                    <p>Address: 343 W Irving Park Rd, Wood Dale, IL 60191</p>
+                    <p>Dates Worked: July 2018 -- December 2018</p>
+                    <p>Position: Grocery Department</p>
+                    <ul>
+                        <li>Stocked shelves</li>
+                        <li>Helped customers find items</li>
+                        <li>Occastionally helped bag groceries when needed</li>
+                    </ul>
+                </div>
 
-            <h3>Get Ahead</h3>
-            <p>No longer has physical address; linked <a href="https://www.get-ahead.org" target="_blank">here</a> is their website</p>
-            <p>Dates Worked: November 2018 -- November 2019</p>
-            <p>Position: Math and Arduino Instructor</p>
-            <ul>
-                <li>Taught basics of circuitry and Arduino programming</li>
-                <li>Assisted lead Arduino instructor in setting up projects</li>
-                <li>Created learning materials for students</li>
-                <li>Graded learning materials for students grades K-12 and assiste them when they needed help</li>
-            </ul>
+                <div id="get_ahead">
+                    <h3>Get Ahead</h3>
+                    <p>No longer has physical address; linked <a href="https://www.get-ahead.org" target="_blank">here</a> is their website</p>
+                    <p>Dates Worked: November 2018 -- November 2019</p>
+                    <p>Position: Math and Arduino Instructor</p>
+                    <ul>
+                        <li>Taught basics of circuitry and Arduino programming</li>
+                        <li>Assisted lead Arduino instructor in setting up projects</li>
+                        <li>Created learning materials for students</li>
+                        <li>Graded learning materials for students grades K-12 and assiste them when they needed help</li>
+                    </ul>
+                </div>
 
-            <h3>Mathnasium</h3>
-            <p>Address: 742 E Schaumburg Rd, Schaumburg, IL 60194</p>
-            <p>Dates Worked: December 2019 -- December 2021</p>
-            <p>Position: Math Instructor</p>
-            <ul>
-                <li>Similar math tutoring responsibilites to those listed at Get Ahead</li>
-                <li>Stayed after closing to assist with cleaning and preparing student binders with the most recent learning materials</li>
-            </ul>
+                <div id="mathnasium">
+                    <h3>Mathnasium</h3>
+                    <p>Address: 742 E Schaumburg Rd, Schaumburg, IL 60194</p>
+                    <p>Dates Worked: December 2019 -- December 2021</p>
+                    <p>Position: Math Instructor</p>
+                    <ul>
+                        <li>Similar math tutoring responsibilites to those listed at Get Ahead</li>
+                        <li>Stayed after closing to assist with cleaning and preparing student binders with the most recent learning materials</li>
+                    </ul>
+                </div>
 
-            <h3>Illinois Institute of Technology</h3>
-            <p>Address: 10 W 35th St, Chicago, IL 60616</p>
-            <p>February 2022 -- Present</p>
-            <p>Position: Community Desk Assistant</p>
-            <ul>
-                <li>Greeted incoming residens and checked in their guests as they entered the building</li>
-                <li>Directed residents to the proper facilities for residence related issues</li>
-                <li>Maintained the security of the IIT residence halls</li>
-            </ul>
+                <div id="iit">
+                    <h3>Illinois Institute of Technology</h3>
+                    <p>Address: 10 W 35th St, Chicago, IL 60616</p>
+                    <p>February 2022 -- Present</p>
+                    <p>Position: Community Desk Assistant</p>
+                    <ul>
+                        <li>Greeted incoming residens and checked in their guests as they entered the building</li>
+                        <li>Directed residents to the proper facilities for residence related issues</li>
+                        <li>Maintained the security of the IIT residence halls</li>
+                    </ul>
+                </div>
+            </div>
 
             <h2>Computer Skills</h2>
             <p>Proficient in Python and Java</p>
@@ -80,7 +92,7 @@
                 <li>The front-end team was responsible for collecting process data and sending it via an FTP server to the back-end team. Then, the front-end team had to retrieve data from the back-end team about potentially malicious processes and kill them on the client machine.</li>
                 <li>As the lead developer I had extra responsibilities, including assigning team members to tasks, meeting with the project management team to determine next steps in development, and assisting team members when they were having trouble with their assigned tasks.</li>
             </ul>
-        </section>
+        </div>
 
     </body>
 </html>
