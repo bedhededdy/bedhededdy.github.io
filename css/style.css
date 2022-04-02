@@ -1,5 +1,11 @@
-nav {
+div#idx_nav {
+  width: 870px;
+  margin: auto;
+  padding-top: 5px;
+}
 
+div#idx_nav > nav > ul > li > a {
+  color: white;
 }
 
 ul > li {
@@ -8,41 +14,6 @@ ul > li {
 
 h1 {
   margin-left: 15px;
-}
-
-div#top {
-  position: relative;
-  margin: auto;
-  height: 450px;
-  width: 800px;
-  background-color: blueviolet;
-  border-radius: 15px;
-  top: 0px;
-}
-
-div#bottom {
-  position: relative;
-  top: 500px;
-}
-
-div#top > img {
-  position: absolute;
-  top: 50px;
-  margin-left: 15px;
-}
-
-section#early_life {
-  position: absolute;
-  width: 500px;
-  top: 20px;
-  left: 250px;
-}
-
-section#current_life {
-  position: relative;
-  width: 500px;
-  top: 250px;
-  left: 250px;
 }
 
 p {
@@ -71,12 +42,84 @@ nav a {
 
 .wrapper {
   margin: auto;
+  background-color: black;
+}
+
+div#top {
+  position: relative;
+  margin: auto;
+  height: 450px;
+  width: 800px;
+  background-color: blueviolet;
+  border-radius: 15px;
+  top: 0px;
+}
+
+div#bottom {
+  position: relative;
+  margin: auto;
+  width: 800px;
+  height: 570px;
+  background-color: red;
+  border-radius: 15px;
+  top: 0px;
+}
+
+div#top > img {
+  position: absolute;
+  top: 50px;
+  margin-left: 15px;
+}
+
+div#bottom > img {
+  position: absolute;
+  top: 50px;
+  margin-left: 15px;
+}
+
+div#bottom > h2 {
+  position: absolute;
+  margin-top: 10px;
+  left: 250px;
+}
+
+section#early_life {
+  position: absolute;
+  width: 500px;
+  top: 20px;
+  left: 250px;
+}
+
+section#current_life {
+  position: relative;
+  width: 500px;
+  top: 250px;
+  left: 250px;
+}
+
+section#music {
+  position: absolute;
+  width: 500px;
+  top: 30px;
+  left: 250px;
+}
+
+section#keyboard {
+  position: absolute;
+  width: 500px;
+  top: 250px;
+  left: 250px;
+}
+
+section#gaming {
+  position: absolute;
+  width: 750px;
+  top: 400px;
+  left: 0px;
 }
 
 div#work_experience {
   position: relative;
-
-
 }
 
 div#objective {
@@ -88,7 +131,6 @@ div#objective {
 div#education {
   position: relative;
   margin-top: 50px;
-
 }
 
 div#jewel {
@@ -100,22 +142,18 @@ div#get_ahead {
   position: absolute;
   top: 28px;
   margin-left: 600px;
-
-
 }
 
 div#mathnasium {
   position: absolute;
   margin-top: 240px;
   width: 570px;
-
 }
 
 div#iit {
   position: relative;
   margin-top: 276px;
   margin-left: 600px;
-
 }
 
 div#leadership {
@@ -126,9 +164,4 @@ div#leadership {
 div#computer {
   position: relative;
   margin-top: 30px;
-
 }
-
-
-
-
