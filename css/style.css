@@ -72,3 +72,63 @@ nav a {
 .wrapper {
   margin: auto;
 }
+
+div#work_experience {
+  position: relative;
+
+
+}
+
+div#objective {
+  position: relative;
+  margin-top: -120px;
+  margin-left: 250px;
+}
+
+div#education {
+  position: relative;
+  margin-top: 50px;
+
+}
+
+div#jewel {
+  position: absolute;
+  top: 30px;
+}
+
+div#get_ahead {
+  position: absolute;
+  top: 28px;
+  margin-left: 600px;
+
+
+}
+
+div#mathnasium {
+  position: absolute;
+  margin-top: 240px;
+  width: 570px;
+
+}
+
+div#iit {
+  position: relative;
+  margin-top: 276px;
+  margin-left: 600px;
+
+}
+
+div#leadership {
+  position: relative;
+  margin-top: 30px;
+}
+
+div#computer {
+  position: relative;
+  margin-top: 30px;
+
+}
+
+
+
+
