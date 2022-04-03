@@ -11,3 +11,6 @@ in the current configuration, I have the nav centered on the about page but the 
 is left-aligned, so having a centered nav would look bizarre. I experimented with a centered
 resume, but I didn't like how it looked. I would also rewrite the CSS in a much cleaner way;
 as it is now, it is very hacked together and could be more concise and more easily modifiable.
+Lastly, I couldn't get the weird bit of white at the bottom of the resume page to go away. The
+white at the top was intentional, but the bit at the bottom was some CSS issue I couldn't 
+resolve in time.
